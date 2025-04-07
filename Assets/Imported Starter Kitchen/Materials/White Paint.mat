@@ -30,7 +30,7 @@ Material:
     - _DstBlendAlpha: 0
     - _Glossiness: 0
     - _Mode: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.463
     - _Surface: 0
     - _ZWrite: 1
     m_Colors:
