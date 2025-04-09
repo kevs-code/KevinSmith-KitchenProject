@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5953161337679245087}
   - component: {fileID: 2978557446417191993}
   - component: {fileID: 6156264435348136263}
+  - component: {fileID: -5210601615323082687}
   m_Layer: 0
   m_Name: Kitchen End Cap
   m_TagString: Base
@@ -83,3 +84,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-5210601615323082687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050209487188279565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12170784a8ea59489cab7df475506aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

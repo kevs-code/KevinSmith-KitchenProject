@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grey
+      name: Gray
       rect:
         serializedVersion: 2
         x: 685
@@ -499,8 +499,8 @@ TextureImporter:
       Cherry: -1055771902
       Chrome: 2090326833
       Enamel: 1093628346
+      Gray: 1537067192
       Green: 1542649479
-      Grey: 1537067192
       Rubbed Bronze: -586098721
       Seperator: -732146609
       Stainless Steel: -1548151140

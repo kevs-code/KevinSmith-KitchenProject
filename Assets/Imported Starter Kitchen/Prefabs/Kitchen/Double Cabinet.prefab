@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2486001974362563735}
+  - component: {fileID: -7964127110744996527}
   m_Layer: 0
   m_Name: Double Cabinet
   m_TagString: Kitchen
@@ -37,6 +38,18 @@ Transform:
   - {fileID: 7449185839651481615}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7964127110744996527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607031894166965225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12170784a8ea59489cab7df475506aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &961947808761319397
 GameObject:
   m_ObjectHideFlags: 0

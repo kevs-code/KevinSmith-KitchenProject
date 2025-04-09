@@ -1,0 +1,497 @@
+{
+  "assetCategories": {
+    "surface": {
+      "stone": {
+        "granite": {}
+      }
+    }
+  },
+  "averageColor": "#393A32",
+  "categories": [
+    "surface",
+    "stone",
+    "granite"
+  ],
+  "comp_version": 1,
+  "description": "",
+  "environment": {
+    "biome": "undefined",
+    "region": "undefined"
+  },
+  "highest_available_res": 8192,
+  "id": "thinabyv",
+  "json": {
+    "contentLength": 10173,
+    "uri": "thinabyv.json"
+  },
+  "maps": [
+    {
+      "averageColor": "#393A32",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 380850384,
+      "maxIntensity": 156,
+      "mimeType": "image/x-exr",
+      "minIntensity": 28,
+      "name": "Basecolor",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "thinabyv_8K_Basecolor.exr"
+    },
+    {
+      "averageColor": "#393A32",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 55475878,
+      "maxIntensity": 156,
+      "mimeType": "image/jpeg",
+      "minIntensity": 28,
+      "name": "Basecolor",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "thinabyv_8K_Basecolor.jpg"
+    },
+    {
+      "averageColor": "#FEFEFE",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 7426967,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 231.82,
+      "name": "Cavity",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "thinabyv_8K_Cavity.exr"
+    },
+    {
+      "averageColor": "#FEFEFE",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 7297814,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 231.82,
+      "name": "Cavity",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "thinabyv_8K_Cavity.jpg"
+    },
+    {
+      "averageColor": "#D4D4D4",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 143134221,
+      "maxIntensity": 219,
+      "mimeType": "image/x-exr",
+      "minIntensity": 198,
+      "name": "Gloss",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "thinabyv_8K_Gloss.exr"
+    },
+    {
+      "averageColor": "#D4D4D4",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 16038303,
+      "maxIntensity": 219,
+      "mimeType": "image/jpeg",
+      "minIntensity": 198,
+      "name": "Gloss",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "thinabyv_8K_Gloss.jpg"
+    },
+    {
+      "averageColor": "#8181FF",
+      "bitDepth": 16,
+      "colorSpace": "Linear",
+      "contentLength": 9406171,
+      "maxIntensity": 144,
+      "mimeType": "image/x-exr",
+      "minIntensity": 143,
+      "name": "Normal",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "thinabyv_8K_Normal.exr"
+    },
+    {
+      "averageColor": "#8181FF",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 923314,
+      "maxIntensity": 144,
+      "mimeType": "image/jpeg",
+      "minIntensity": 143,
+      "name": "Normal",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "thinabyv_8K_Normal.jpg"
+    },
+    {
+      "averageColor": "#2B2B2B",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 157862096,
+      "maxIntensity": 57,
+      "mimeType": "image/x-exr",
+      "minIntensity": 36,
+      "name": "Roughness",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "thinabyv_8K_Roughness.exr"
+    },
+    {
+      "averageColor": "#2B2B2B",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 17135823,
+      "maxIntensity": 57,
+      "mimeType": "image/jpeg",
+      "minIntensity": 36,
+      "name": "Roughness",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "thinabyv_8K_Roughness.jpg"
+    },
+    {
+      "averageColor": "#383838",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 270376895,
+      "maxIntensity": 72,
+      "mimeType": "image/x-exr",
+      "minIntensity": 51,
+      "name": "Specular",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "thinabyv_8K_Specular.exr"
+    },
+    {
+      "averageColor": "#383838",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 14614532,
+      "maxIntensity": 72,
+      "mimeType": "image/jpeg",
+      "minIntensity": 51,
+      "name": "Specular",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "thinabyv_8K_Specular.jpg"
+    }
+  ],
+  "meta": [
+    {
+      "key": "scanArea",
+      "name": "Scan Area",
+      "value": "2x2 m"
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "value": "20 m"
+    },
+    {
+      "key": "tileable",
+      "name": "Tileable",
+      "value": true
+    },
+    {
+      "key": "texelDensity",
+      "name": "Texel Density",
+      "value": "4096 px/m"
+    },
+    {
+      "key": "calibration",
+      "name": "Calibration",
+      "value": "GretagMacbeth ColorChecker Color Rendition Chart"
+    },
+    {
+      "key": "scanner",
+      "name": "Scanner",
+      "value": "MKX"
+    }
+  ],
+  "models": [],
+  "name": "Emerald Pearl Granite",
+  "pack": {
+    "_id": "pristine-granite",
+    "name": "Pristine Granite"
+  },
+  "physicalSize": null,
+  "points": 2,
+  "previews": {
+    "images": [
+      {
+        "contentLength": 259926,
+        "resolution": "360x360",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "thinabyv_Grid_360.png"
+      },
+      {
+        "contentLength": 353554,
+        "resolution": "420x420",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "thinabyv_Grid_420.png"
+      },
+      {
+        "contentLength": 1054181,
+        "resolution": "720x720",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "thinabyv_Grid_720.png"
+      },
+      {
+        "contentLength": 1439221,
+        "resolution": "840x840",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "thinabyv_Grid_840.png"
+      },
+      {
+        "contentLength": 1744353,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "thinabyv_PopupClay_1440.png"
+      },
+      {
+        "contentLength": 3209018,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "thinabyv_PopupClay_1920.png"
+      },
+      {
+        "contentLength": 6759043,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "thinabyv_PopupClay_2880.png"
+      },
+      {
+        "contentLength": 12079834,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "thinabyv_PopupClay_3840.png"
+      },
+      {
+        "contentLength": 2899830,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "thinabyv_PopupTiled_1440.png"
+      },
+      {
+        "contentLength": 5392024,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "thinabyv_PopupTiled_1920.png"
+      },
+      {
+        "contentLength": 11432554,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "thinabyv_PopupTiled_2880.png"
+      },
+      {
+        "contentLength": 22031583,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "thinabyv_PopupTiled_3840.png"
+      },
+      {
+        "contentLength": 2877833,
+        "resolution": "1440x768",
+        "tags": [
+          "preview"
+        ],
+        "uri": "thinabyv_Popup_1440.png"
+      },
+      {
+        "contentLength": 5339582,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview"
+        ],
+        "uri": "thinabyv_Popup_1920.png"
+      },
+      {
+        "contentLength": 11341076,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "thinabyv_Popup_2880.png"
+      },
+      {
+        "contentLength": 21985982,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "thinabyv_Popup_3840.png"
+      }
+    ],
+    "relativeSize": "1x1",
+    "scaleReferences": []
+  },
+  "process_date": "2024-04-17 09:25:54",
+  "properties": [],
+  "referencePreviews": {
+    "maps": [],
+    "models": []
+  },
+  "references": [],
+  "revised": false,
+  "revision": 0,
+  "semanticTags": {
+    "3d_mesh": [],
+    "architectural_style": {},
+    "asset_type": "surface",
+    "contains": [
+      "granite"
+    ],
+    "descriptive": [
+      "clean",
+      " shiny",
+      " polished",
+      " decorative"
+    ],
+    "environment": [
+      "urban"
+    ],
+    "industry": [
+      "archviz",
+      "games",
+      "VFX"
+    ],
+    "interior_exterior": [
+      "interior"
+    ],
+    "latin_name": [],
+    "locations": {
+      "Global": {
+        "Global": {}
+      }
+    },
+    "maxSize": 2,
+    "minSize": 2,
+    "name": "Emerald Pearl Granite",
+    "orientation": [
+      "floor"
+    ],
+    "resolution": 8192,
+    "season": [],
+    "state": [
+      "new"
+    ],
+    "subject_matter": "manmade",
+    "theme": [
+      "interiors",
+      " counter-tops",
+      "interior design",
+      " bathroom",
+      " kitchen",
+      " washroom",
+      " decorative",
+      " ornate",
+      " house",
+      " office"
+    ]
+  },
+  "tags": [
+    "surface mix",
+    "emerald pearl granite",
+    "emerald",
+    "pearl",
+    "black granite",
+    "granite",
+    "archviz"
+  ],
+  "texelDensity": 4096,
+  "texture_type": "basic",
+  "ue_plugin_archives": [
+    {
+      "contentLength": 137766374,
+      "gltfVersion": "2.0",
+      "tier": 0,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_0/thinabyv_tier_0.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 43228568,
+      "gltfVersion": "2.0",
+      "tier": 1,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_1/thinabyv_tier_1.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 11664097,
+      "gltfVersion": "2.0",
+      "tier": 2,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_2/thinabyv_tier_2.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 978768,
+      "gltfVersion": "2.0",
+      "tier": 3,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_3/thinabyv_tier_3.zip",
+      "version": 1
+    }
+  ],
+  "version": 2
+}
