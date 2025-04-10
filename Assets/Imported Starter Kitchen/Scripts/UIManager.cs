@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    Button[] swatchButtons;
+    private Button[] _swatchButtons;
+    private Dictionary<string, Material> _materialDictionary = new Dictionary<string, Material>();
     public static UIManager Singleton { get; private set; }
-    public Dictionary<string, Material> materialDictionary = new Dictionary<string, Material>();
     public List<Material> materials = new List<Material>();
     public event Action<Material> OnMaterialChange;
-    //Event Action 
+    public AudioSource kitchenAmbience;
+ 
     private void Awake()
     {
         Singleton = this;
-        swatchButtons = GetComponentsInChildren<Button>(true);
+        _swatchButtons = GetComponentsInChildren<Button>(true);
     }
 
     private void Start()
@@ -24,23 +25,44 @@ public class UIManager : MonoBehaviour
 
     private void SetupButtons()
     {
-        foreach (Button button in swatchButtons)
+        foreach (Button button in _swatchButtons)
         {
-            string swatchName = button.image.sprite.name;
+            AddSwatchListeners(button);
+        }
+    }
 
-            foreach (Material material in materials)
+    private void AddSwatchListeners(Button button)
+    {
+        string swatchName = button.image.sprite.name;
+
+        if (swatchName.Contains("Check"))
+        {
+            AddHardwareListener(button);
+        }
+
+        foreach (Material material in materials)
+        {
+            if (material.name.Contains(swatchName) && !_materialDictionary.ContainsKey(swatchName))
             {
-                if (material.name.Contains(swatchName) && !materialDictionary.ContainsKey(swatchName))
-                {
-                    materialDictionary[swatchName] = material;
+                _materialDictionary[swatchName] = material;
 
-                    button.onClick.AddListener(() =>
-                    {
-                        OnMaterialChange?.Invoke(materialDictionary[swatchName]);
-                        Debug.Log(materialDictionary[swatchName].name);
-                    });
-                }
+                button.onClick.AddListener(() =>
+                {
+                    OnMaterialChange?.Invoke(_materialDictionary[swatchName]);
+                });
             }
         }
+    }
+
+    private void AddHardwareListener(Button button)
+    {
+        button.onClick.AddListener(() =>
+        {
+            Image tick = button.transform.Find("Tick").GetComponent<Image>();
+            tick.enabled = !tick.enabled;
+
+            if (kitchenAmbience == null) { return; }
+            kitchenAmbience.enabled = !kitchenAmbience.enabled;
+        });
     }
 }
